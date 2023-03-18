@@ -36,7 +36,7 @@ const Newsitem=(props)=>{
                   }}
                 >
                   HEADLINES &nbsp; :&nbsp;&nbsp;&nbsp; {title}...
-                  <hr style={{ weight: "bold" }} />
+//                   <hr style={{ weight: "bold" }} />
                 </h5>
 
                 <p
@@ -48,13 +48,13 @@ const Newsitem=(props)=>{
                   
                   <strong>DESCRIPTION</strong> &nbsp;:&nbsp;&nbsp;&nbsp;
                   {description}...
-                  <hr style={{ weight: "bold" }} />
+//                   <hr style={{ weight: "bold" }} />
                 </p>
 
                 <div className="card-footer text-light">
                   <strong>AUTHOR&nbsp;&nbsp;:&nbsp;&nbsp; By</strong> {author}{" "}
                   on {new Date(date).toGMTString()}
-                  <hr style={{ weight: "bold" }} />
+//                   <hr style={{ weight: "bold" }} />
                 </div>
                 <a
                   href={newsURL}
